@@ -45,9 +45,6 @@ const PasswordForm = () => {
           setPasswordStatus(checkPasswordStrenght(e.target.value));
         }}
       />
-      <label className='strength-text' htmlFor='password'>
-        Enter password:
-      </label>
       <div className='strength-indication'>
         <div
           style={{
